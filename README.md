@@ -1,28 +1,48 @@
 # Inventory UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.0-rc.0.
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)  
 
-## Development server
+This repository contains the user interface (UI) design for an inventory management application. The UI is designed to provide a user-friendly and efficient way for users to manage their inventory and perform various inventory-related tasks.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:5000/`. The app will automatically reload if you change any of the source files.
+## Features
+*Dashboard: Displays an overview of inventory statistics, including total items, low stock alerts, and recent activity.
+*Product Management: Allows users to add, edit, and delete products in the inventory.
+*Inventory Tracking: Enables users to track the quantity and location of each item in the inventory.
+*Stock Alerts: Provides notifications and alerts for low stock levels and out-of-stock items.
+*Order Management: Allows users to create, track, and manage orders for replenishing inventory.
+*Reporting: Provides reports and analytics on inventory performance, sales and trends.
+*User Management: Allows administrators to manage user accounts and access permissions.
 
-## Code scaffolding
+## Building From Source
+This microservice is built on Java, Spring boot framework and MySQL DB.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+Prerequisites 
+*Inventory-API module must be running
+* JDK 1.8
+* HTML5/CSS
+* Nodejs
+* Maven 
+* Springboot V2
+* MySQL
 
-## Build
+## Installation
+This service has been tested on Wildfly as the application server.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+To install the admin module, follow these steps:
 
-## Running unit tests
+Clone the repository to your local machine & Install the dependencies using node package manager(npm), Then
+ ng build
+ ng test
+ ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Open the application in your browser. 
+The admin module will be accessible at http://localhost:4200/(or the specified URL in your configuration) 
 
-## Running end-to-end tests
+## Contributing
+Contributions are welcome! If you have any bug fixes, enhancements, or new features to propose, please follow these steps:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1.Fork the repository.
+2.Create a new branch for your changes.
+3.Make the necessary modifications.
+4.Test your changes thoroughly.
+5.Submit a pull request, explaining the purpose and details of your changes.
