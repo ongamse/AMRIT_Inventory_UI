@@ -88,5 +88,5 @@
     "typescript": "~2.3.3",
     "xlsx": "^0.13.0"
   },
-  "author": "psharneja@gmail.com"
+  "repository": "https://github.com/PSMRI/Inventory-UI.git"
 }
