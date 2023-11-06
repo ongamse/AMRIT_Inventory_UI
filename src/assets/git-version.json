@@ -1,11 +1,11 @@
 {
   "version": "1.0.1",
-  "hash": "2d9a8e20a94c65cca14b05f259c5bb65ca27b1fa",
-  "shortHash": "2d9a8e2",
-  "commit": "2d9a8e20a94c65cca14b05f259c5bb65ca27b1fa",
-  "shortCommit": "2d9a8e2",
-  "author": "devikasuresh20",
-  "email": "57424483+devikasuresh20@users.noreply.github.com",
-  "date": "Mon Nov 6 12:42:29 2023 +0530",
-  "message": "Merge pull request #17 from swetatech24/develop\n    \n    Client cross site scripting"
+  "hash": "ee84de508b09a534a1d1f15a4c07a58c22892b35",
+  "shortHash": "ee84de5",
+  "commit": "ee84de508b09a534a1d1f15a4c07a58c22892b35",
+  "shortCommit": "ee84de5",
+  "author": "Vidyadevi Salunkhe",
+  "email": "84471226+Vidyaaa24@users.noreply.github.com",
+  "date": "Mon Jun 12 12:18:33 2023 +0530",
+  "message": "Merge pull request #3 from PSMRI/pwdEncript\n    \n    Pwd encript"
 }
