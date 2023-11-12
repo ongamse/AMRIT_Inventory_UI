@@ -76,7 +76,7 @@
     "protractor": "~5.1.2",
     "ts-node": "~3.2.0",
     "tslint": "~5.3.2",
-    "typescript": "~2.3.3",
+    "typescript": "2.7.2",
     "xlsx": "^0.13.0"
   },
   "repository": "https://github.com/PSMRI/Inventory-UI.git"
