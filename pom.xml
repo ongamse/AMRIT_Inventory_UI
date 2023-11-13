@@ -98,7 +98,7 @@
 						<configuration>
 							<executable>npm</executable>
 							<arguments>
-								<argument>install --legacy-peer-deps</argument>
+								<argument>install</argument>
 							</arguments>
 						</configuration>
 					</execution>
